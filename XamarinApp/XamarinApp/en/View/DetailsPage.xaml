@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinApp.en.View.DetailsPage"
+             xmlns:navigationdrawer="clr-namespace:Syncfusion.SfNavigationDrawer.XForms;assembly=Syncfusion.SfNavigationDrawer.XForms">
+  
+  <navigationdrawer:SfNavigationDrawer x:Name="navigationDrawer" DrawerWidth ="200" DrawerHeaderHeight="160">
+    <navigationdrawer:SfNavigationDrawer.ContentView>
+      <Grid x:Name="mainContentView" BackgroundColor="White">
+        <Grid.RowDefinitions>
+          <RowDefinition Height="auto"/>
+          <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackLayout BackgroundColor="#1aa1d6" Orientation="Horizontal">
+          <Button x:Name="hamburgerButton" HeightRequest="50" WidthRequest="50" HorizontalOptions="Start" FontSize="20" BackgroundColor="#1aa1d6" Clicked="hamburgerButton_Clicked" Image="HumburgerIcon.png">
+            <!--<Button.Image>
+                            <ffsvg:SvgCachedImage Source="main.svg"/>
+                        </Button.Image>-->
+          </Button>
+          <Label x:Name="headerLabel" HeightRequest="50" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="Home" FontSize="16" TextColor="White" BackgroundColor="#1aa1d6"/>
+        </StackLayout>
+
+        <!-- Content Page -->
+        <Grid Grid.Row="1" >
+
+          <Grid.RowDefinitions>
+            <RowDefinition Height="250"/>
+            <RowDefinition Height="Auto"/>
+
+          </Grid.RowDefinitions>
+
+          <Image Source="villa1.png" Grid.Row="0" Grid.Column="0"/>
+
+          <Label Text="175,000 AED/year" Grid.Row="1" Grid.Column="0"/>
+          <Label Text="Cedre Villas, Dubai Silicon Oasis, Dubai" Grid.Row="2" Grid.Column="0"/>
+        </Grid>
+
+
+        <!-- Content Page End -->
+      </Grid>
+    </navigationdrawer:SfNavigationDrawer.ContentView>
+
+
+
+    <navigationdrawer:SfNavigationDrawer.DrawerHeaderView>
+      <Grid BackgroundColor="#1aa1d6">
+        <Grid.RowDefinitions>
+          <RowDefinition Height="120"/>
+          <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Image Source="user.png" HeightRequest="110" Margin="0,50,0,0" BackgroundColor="#1aa1d6" VerticalOptions="Center" HorizontalOptions="Center"/>
+        <Label Text="James Pollock" Grid.Row="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="20" TextColor="White"/>
+      </Grid>
+    </navigationdrawer:SfNavigationDrawer.DrawerHeaderView>
+
+    <navigationdrawer:SfNavigationDrawer.DrawerContentView>
+      <ListView x:Name="listView1" ItemSelected="listView1_ItemSelected" ItemsSource="{Binding MenuItems}">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+              <StackLayout HeightRequest="40">
+                <Label Margin="10,7,0,0" Text="{Binding Title}" FontSize="16"/>
+              </StackLayout>
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+    </navigationdrawer:SfNavigationDrawer.DrawerContentView>
+
+
+  </navigationdrawer:SfNavigationDrawer>
+</ContentView>

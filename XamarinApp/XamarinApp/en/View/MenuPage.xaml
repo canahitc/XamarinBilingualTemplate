@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinApp.en.View.MenuPage"
+             xmlns:navigationdrawer="clr-namespace:Syncfusion.SfNavigationDrawer.XForms;assembly=Syncfusion.SfNavigationDrawer.XForms"
+             xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             xmlns:local1="clr-namespace:XamarinApp.Behaviors">
+
+    <navigationdrawer:SfNavigationDrawer x:Name="navigationDrawer" DrawerWidth ="200">
+        <navigationdrawer:SfNavigationDrawer.ContentView>
+            <Grid x:Name="mainContentView" BackgroundColor="White">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <StackLayout BackgroundColor="#1aa1d6" Orientation="Horizontal">
+                    <Button x:Name="hamburgerButton" HeightRequest="50" WidthRequest="50" HorizontalOptions="Start" FontSize="20" BackgroundColor="#1aa1d6" Clicked="hamburgerButton_Clicked" Image="HumburgerIcon.png"/>
+                    <Label x:Name="headerLabel" HeightRequest="50" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="Home" FontSize="16" TextColor="White" BackgroundColor="#1aa1d6"/>
+                </StackLayout>
+
+
+
+
+                <!-- Content Page -->
+
+
+                <Grid Grid.Row="1" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <!--<RowDefinition Height="2*"/>-->
+                    </Grid.RowDefinitions>
+                    <SearchBar x:Name="filterText" HeightRequest="40"
+           Placeholder="Search here to filter"
+           TextChanged="filterText_TextChanged" Grid.Row="0"/>
+
+                    <syncfusion:SfListView x:Name="listView1" 
+                           ItemsSource="{Binding list}"
+                           Grid.Row="1"
+                           ItemSize="100"
+                           SelectionMode="Single"
+                           SelectionGesture="Tap"
+                           SelectionBackgroundColor="AliceBlue"                          
+                           IsStickyHeader="True"
+                           IsStickyFooter="True"
+                           AllowSwiping="True" >
+
+
+                        <syncfusion:SfListView.Behaviors>
+                            <local1:EventToCommandBehavior EventName="SelectionChanged" Command="{Binding SelectionChangedCommand}" CommandParameter="{Binding Source={x:Reference listView1}}"/>
+                        </syncfusion:SfListView.Behaviors>
+
+                        <syncfusion:SfListView.RightSwipeTemplate>
+                            <DataTemplate x:Name="RightSwipeTemplate">
+                                <Grid>
+                                    <Grid BackgroundColor="#009EDA" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0">
+                                        <Grid VerticalOptions="Center" HorizontalOptions="Center">
+                                            <Image Grid.Column="0"
+                    Grid.Row="0"
+                    BackgroundColor="Transparent"
+                    HeightRequest="35"
+                    WidthRequest="35"
+                    Source="icon1.png" />
+                                        </Grid>
+                                    </Grid>
+                                </Grid>
+                            </DataTemplate>
+                        </syncfusion:SfListView.RightSwipeTemplate>
+
+               
+
+
+                        <syncfusion:SfListView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid RowSpacing="0" HeightRequest="100" Padding="2" Margin="0,5,0,5">
+                                    <StackLayout Grid.Row="0" Grid.Column="0">
+                                        <Image Source="{Binding image}" />
+                                    </StackLayout>
+                                    <StackLayout Grid.Row="0" Grid.Column="1">
+                                        <Label Text="{Binding rate}" FontSize="18" FontAttributes="Bold"/>
+                                        <Label Text="{Binding address}" FontSize="12"/>
+                                    </StackLayout>
+                                </Grid>
+                            </DataTemplate>
+                        </syncfusion:SfListView.ItemTemplate>
+                    </syncfusion:SfListView>
+
+
+                </Grid>
+
+
+                <!-- Content Page End -->
+                
+                
+                
+            </Grid>
+        </navigationdrawer:SfNavigationDrawer.ContentView>
+
+
+        <navigationdrawer:SfNavigationDrawer.DrawerHeaderView>
+            <Grid BackgroundColor="#1aa1d6">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="120"/>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+                <Image Source="user.png" HeightRequest="110" Margin="0,50,0,0" BackgroundColor="#1aa1d6" VerticalOptions="Center" HorizontalOptions="Center"/>
+                <Label Text="James Pollock" Grid.Row="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="20" TextColor="White"/>
+            </Grid>
+        </navigationdrawer:SfNavigationDrawer.DrawerHeaderView>
+
+        <navigationdrawer:SfNavigationDrawer.DrawerContentView>
+            <ListView x:Name="listView" ItemSelected="listView_ItemSelected"  ItemsSource="{Binding MenuItems}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout HeightRequest="40">
+                                <Label Margin="10,7,0,0" Text="{Binding Title}" FontSize="16"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </navigationdrawer:SfNavigationDrawer.DrawerContentView>
+    </navigationdrawer:SfNavigationDrawer>
+</ContentPage>
