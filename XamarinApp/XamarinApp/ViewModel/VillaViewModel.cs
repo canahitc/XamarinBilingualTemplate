@@ -13,8 +13,7 @@ namespace XamarinApp.ViewModel
 {
     public class VillaViewModel : ViewModelBase
     {
-        VillaServices services;
-        public MenuViewModel menuviewmodel { get; set; }
+        VillaServices services;       
         public ObservableCollection<MenuModel> MenuItems { get; set; }
         private Command<SfListView> selectionChangedCommand;
         private List<VillaModel> villaList;
@@ -33,7 +32,7 @@ namespace XamarinApp.ViewModel
 
             services = new VillaServices();
             list = services.GetVillaList();
-            menuviewmodel = new MenuViewModel();
+           
             MenuItems = new ObservableCollection<MenuModel>(new[]
             {
                     new MenuModel { Id = 0, Title = "Details Page", TargetType= typeof(en.View.DetailsPage) },
