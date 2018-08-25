@@ -13,7 +13,8 @@
 namespace XamarinApp.en.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\AndroidApp\\XamarinApp\\XamarinApp\\XamarinApp\\en\\View\\MenuPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\AndroidAppGithub\\XamarinBilingualTemplate\\XamarinApp\\XamarinApp\\en\\View\\MenuPa" +
+        "ge.xaml")]
     public partial class MenuPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

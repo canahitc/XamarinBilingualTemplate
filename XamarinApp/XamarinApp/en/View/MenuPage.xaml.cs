@@ -20,11 +20,13 @@ namespace XamarinApp.en.View
             InitializeComponent();           
             BindingContext = new VillaViewModel();
         }
+        // ON CLICKING HUMBURGER BUTTON MENU IS SHOWN
         private void hamburgerButton_Clicked(object sender, EventArgs e)
         {
             navigationDrawer.ToggleDrawer();
         }
 
+        //ON CLICKING AN ITEM IN THE MENU LIST, REDIRECTING TO NEXT PAGE
         private void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {           
 
@@ -37,6 +39,9 @@ namespace XamarinApp.en.View
 
             navigationDrawer.ToggleDrawer();
         }
+
+        //LIST VIEW FILTER
+        #region ************SEARCH**********
         private void filterText_TextChanged(object sender, TextChangedEventArgs e)
         {
             searchBar = (sender as SearchBar);
@@ -58,5 +63,6 @@ namespace XamarinApp.en.View
             else
                 return false;
         }
+        #endregion
     }
 }

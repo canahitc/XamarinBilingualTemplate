@@ -13,7 +13,7 @@
 namespace XamarinApp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\AndroidApp\\XamarinApp\\XamarinApp\\XamarinApp\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\AndroidAppGithub\\XamarinBilingualTemplate\\XamarinApp\\XamarinApp\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

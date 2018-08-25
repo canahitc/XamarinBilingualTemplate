@@ -7,6 +7,8 @@ C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\D
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\MainPage.xaml.g.cs
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\en\View\DetailsPage.xaml.g.cs
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\en\View\MenuPage.xaml.g.cs
+C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\en\View\Page1.xaml.g.cs
+C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\en\View\Page2.xaml.g.cs
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\XamarinApp.Android.csproj.CoreCompileInputs.cache
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\XamlC.stamp
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\XamarinApp.Android.dll
@@ -108,6 +110,7 @@ C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\bin\D
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\linksrc\FormsViewGroup.dll.mdb
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
+C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\XamarinApp.Android.csprojAssemblyReference.cache
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\android\assets\FormsViewGroup.dll.mdb
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\android\assets\FFImageLoading.Forms.pdb
@@ -137,7 +140,6 @@ C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\D
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Forms.Core.pdb
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Forms.Xaml.pdb
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\android\assets\XamarinApp.Android.pdb
-C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\XamarinApp.Android.csprojAssemblyReference.cache
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\linksrc\XamarinApp.Android.pdb
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\linksrc\FormsViewGroup.dll.mdb
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
