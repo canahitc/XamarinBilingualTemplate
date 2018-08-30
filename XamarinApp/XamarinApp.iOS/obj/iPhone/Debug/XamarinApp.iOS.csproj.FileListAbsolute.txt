@@ -82,6 +82,7 @@ C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.iOS\obj\iPhon
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.iOS\obj\iPhone\Debug\optimized\
+C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.iOS\obj\iPhone\Debug\XamarinApp.iOS.csprojAssemblyReference.cache
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.iOS\obj\iPhone\Debug\App.xaml.g.cs
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.iOS\obj\iPhone\Debug\MainPage.xaml.g.cs
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.iOS\obj\iPhone\Debug\en\View\DetailsPage.xaml.g.cs

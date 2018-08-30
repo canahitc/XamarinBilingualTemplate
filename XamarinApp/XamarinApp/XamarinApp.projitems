@@ -39,7 +39,11 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Model\MenuModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\VillaModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\ApartmentServices.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\HotelServices.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\VillaServices.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\ApartmentViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\HotelViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModel\ViewModelBase.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModel\VillaViewModel.cs" />
   </ItemGroup>

@@ -113,7 +113,7 @@
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout HeightRequest="40">
-                                <Label Margin="10,7,0,0" Text="{Binding Title}" FontSize="16"/>
+                                <Button Text="{Binding Title}" FontSize="16" Clicked="Handle_Clicked"/>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>

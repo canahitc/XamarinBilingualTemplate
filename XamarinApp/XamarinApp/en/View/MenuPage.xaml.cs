@@ -20,6 +20,22 @@ namespace XamarinApp.en.View
             InitializeComponent();           
             BindingContext = new VillaViewModel();
         }
+        void Handle_Clicked(object sender, System.EventArgs e)
+        {
+            if (sender is Button)
+            {
+                if ((sender as Button).Text == "Page 1")
+                {
+                    this.Navigation.PushAsync(new Page1(), true);
+
+                }
+                else if ((sender as Button).Text != "Page 2")
+                {
+                    navigationDrawer.IsOpen = false;
+                }
+
+            }
+        }
         // ON CLICKING HUMBURGER BUTTON MENU IS SHOWN
         private void hamburgerButton_Clicked(object sender, EventArgs e)
         {
@@ -28,15 +44,7 @@ namespace XamarinApp.en.View
 
         //ON CLICKING AN ITEM IN THE MENU LIST, REDIRECTING TO NEXT PAGE
         private void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
-        {           
-
-            var item = e.SelectedItem as MenuModel;
-            if (item == null)
-                return;
-
-            var page = (ContentView)Activator.CreateInstance(item.TargetType);           
-            navigationDrawer.ContentView = page;
-
+        {                      
             navigationDrawer.ToggleDrawer();
         }
 

@@ -50,6 +50,16 @@ C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\D
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\res\drawable\villa8.jpg
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\res\drawable\villa9.jpg
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\res\drawable\villa10.jpg
+C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\res\drawable\hotel1.jpg
+C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\res\drawable\hotel2.jpg
+C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\res\drawable\hotel3.jpg
+C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\res\drawable\hotel4.jpg
+C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\res\drawable\hotel5.jpg
+C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\res\drawable\appartment1.jpg
+C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\res\drawable\appartment2.jpg
+C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\res\drawable\appartment3.jpg
+C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\res\drawable\appartment4.jpg
+C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\res\drawable\appartment5.jpg
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\R.cs.flag
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\R.txt
 C:\AndroidAppGithub\XamarinBilingualTemplate\XamarinApp\XamarinApp.Android\obj\Debug\MonoAndroid81\uploadflags.txt
