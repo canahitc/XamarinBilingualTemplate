@@ -26,11 +26,9 @@
                         <!--<RowDefinition Height="2*"/>-->
                     </Grid.RowDefinitions>
                    
-                        <Label TextColor="Maroon" HorizontalTextAlignment="Center" Grid.Row="0" BackgroundColor="#dadada">HOTELS</Label>
+                    <Label TextColor="Maroon" HorizontalTextAlignment="Center" Grid.Row="0" BackgroundColor="#dadada">HOTELS</Label>
                     
-                    <SearchBar x:Name="filterText" HeightRequest="40"
-           Placeholder="Search here to filter"
-           TextChanged="filterText_TextChanged" Grid.Row="1"/>
+                    <SearchBar x:Name="filterText" HeightRequest="40" Placeholder="Search here to filter" TextChanged="filterText_TextChanged" Grid.Row="1"/>
 
                     <syncfusion:SfListView x:Name="listView" 
                            ItemsSource="{Binding list}"
@@ -43,7 +41,6 @@
                            IsStickyFooter="True"
                            AllowSwiping="True" >
 
-
                         <syncfusion:SfListView.Behaviors>
                             <local1:EventToCommandBehavior EventName="SelectionChanged" Command="{Binding SelectionChangedCommand}" CommandParameter="{Binding Source={x:Reference listView}}"/>
                         </syncfusion:SfListView.Behaviors>
@@ -53,20 +50,12 @@
                                 <Grid>
                                     <Grid BackgroundColor="#009EDA" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0">
                                         <Grid VerticalOptions="Center" HorizontalOptions="Center">
-                                            <Image Grid.Column="0"
-                    Grid.Row="0"
-                    BackgroundColor="Transparent"
-                    HeightRequest="35"
-                    WidthRequest="35"
-                    Source="icon1.png" />
+                                            <Image Grid.Column="0" Grid.Row="0" BackgroundColor="Transparent" HeightRequest="35" WidthRequest="35" Source="icon1.png" />
                                         </Grid>
                                     </Grid>
                                 </Grid>
                             </DataTemplate>
                         </syncfusion:SfListView.RightSwipeTemplate>
-
-
-
 
                         <syncfusion:SfListView.ItemTemplate>
                             <DataTemplate>
@@ -83,16 +72,10 @@
                         </syncfusion:SfListView.ItemTemplate>
                     </syncfusion:SfListView>
 
-
                 </Grid>
-
-
                 <!-- Content Page End -->
             </Grid>
         </navigationdrawer:SfNavigationDrawer.ContentView>
-
-
-
         <navigationdrawer:SfNavigationDrawer.DrawerHeaderView>
             <Grid BackgroundColor="#1aa1d6">
                 <Grid.RowDefinitions>
