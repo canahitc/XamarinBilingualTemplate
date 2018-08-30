@@ -14,16 +14,12 @@
                     <RowDefinition/>
                 </Grid.RowDefinitions>
                 <StackLayout BackgroundColor="#1aa1d6" Orientation="Horizontal">
-                    <Button x:Name="hamburgerButton" HeightRequest="50" WidthRequest="50" HorizontalOptions="Start" FontSize="20" BackgroundColor="#1aa1d6" Clicked="hamburgerButton_Clicked" Image="HumburgerIcon.png">
-                     
-                    </Button>
+                    <Button x:Name="hamburgerButton" HeightRequest="50" WidthRequest="50" HorizontalOptions="Start" FontSize="20" BackgroundColor="#1aa1d6" Clicked="hamburgerButton_Clicked" Image="HumburgerIcon.png"></Button>
                     <Label x:Name="headerLabel" HeightRequest="50" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="Home" FontSize="16" TextColor="White" BackgroundColor="#1aa1d6"/>
                 </StackLayout>
 
                 <!-- Content Page -->
-
-
-                <Grid Grid.Row="1" >
+               <Grid Grid.Row="1" >
                     <Grid.RowDefinitions>
                         <RowDefinition Height="40"/>
                         <RowDefinition Height="Auto"/>
